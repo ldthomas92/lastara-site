@@ -1,0 +1,7 @@
+# GitHub Pages (Jekyll) — publish the site, keep internal notes off the public site.
+exclude:
+  - README.md
+  - DEPLOY.md
+  - FORM_SETUP.md
+  - LEGAL_UPDATE_PROPOSAL.md
+  - scripts
