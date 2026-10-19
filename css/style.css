@@ -97,24 +97,14 @@ a {
   text-decoration: none;
   color: var(--ink);
 }
-.route-mark {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-.route-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px; /* app-icon rounding; the image itself is the unaltered square icon */
   display: block;
+  flex-shrink: 0;
 }
-.route-line {
-  width: 18px;
-  height: 0;
-  border-top: 1px dashed var(--border-strong);
-  display: block;
-}
+@media (max-width: 480px) { .brand-icon { width: 32px; height: 32px; border-radius: 7px; } }
 .wordmark {
   font-family: var(--font-display);
   font-size: 16px;
